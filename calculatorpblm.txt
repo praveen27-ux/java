@@ -1,0 +1,41 @@
+class pgm303
+{
+public static void main(string [] args)
+{
+scanner sc=new scanner(system.in);
+     
+Scanner sc=new Scanner(system.in);
+System.out.println("Enter the value of a");
+int a=sc.nextInt();
+System.out.println("Enter the value of b");     
+int b=sc.nextInt();
+System.out.println("Enter the value of choice");  
+int c=0;   
+char ch=sc.next().charAt(0);
+switch(ch)
+{
+case '+':
+c=a+b;
+break;
+case '*':
+c=a*b;
+break;
+case '-':
+c=a-b;
+break;
+case '%':
+c=a%b;
+break;
+case '/':
+
+c=a/b;
+break;
+default:
+System.out.println("Invalid");
+brek;
+}
+if(validop);
+{
+System.out.println("Result is:"+c);
+}
+}

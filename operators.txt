@@ -1,0 +1,14 @@
+import com.sun.jdi.connect.Connector;
+
+public Operators {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        
+        int c=sc.nextInt();
+        System.out.println("the value + is"+(c+7));
+        System.out.println("the value + is"+(c-7));
+        System.out.println("the value + is"+(c*7));
+        System.out.println("the value + is"+(c/7));
+    }
+    
+}

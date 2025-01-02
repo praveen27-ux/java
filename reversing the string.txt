@@ -1,0 +1,10 @@
+class Main {
+    public static void main(String[] args) {
+       String s="abbiij";
+       String ans="";
+       for (int i=5;i>=0;i--){
+           ans=ans+s.charAt(i);
+       }
+    System.out.println(ans);
+    }
+}
